@@ -1,0 +1,45 @@
+{
+  "name": "pimpme",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export",
+    "deploy": "next build && next export && npx thirdweb@latest upload out"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@ethereumjs/evm": "^3.0.0",
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "@thirdweb-dev/react": "^3.10.3",
+    "@thirdweb-dev/react-native": "^0.7.41",
+    "@thirdweb-dev/react-native-compat": "^0.7.41",
+    "@thirdweb-dev/sdk": "^4.0.67",
+    "ethers": "5",
+    "framer-motion": "^11.1.7",
+    "node-libs-browser": "^2.2.1",
+    "npm": "^10.5.2",
+    "punycode": "^2.3.1",
+    "react": "^18.2",
+    "react-dom": "^18.2",
+    "react-native-crypto": "^2.2.0",
+    "react-native-get-random-values": "^1.11.0",
+    "react-native-mmkv": "^2.12.2",
+    "react-native-randombytes": "^3.6.1",
+    "react-native-svg": "13.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.11",
+    "@types/react": "^18",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.29.0",
+    "eslint-config-next": "^13",
+    "next": "^14.2.2",
+    "typescript": "^4.9.4"
+  }
+}
