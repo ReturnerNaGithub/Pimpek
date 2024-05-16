@@ -66,7 +66,7 @@ width="100%"
 <Web3Button
 contractAddress={PIMPME_ADDRESS}
 action={() => stakeNFT(nft.metadata.id)}
->Equip</Web3Button>
+>Insert</Web3Button>
 
 
 </Stack>

@@ -88,7 +88,7 @@ if(ownedScarlets?.length === 0) {
 </Box>
 
 <Box>
-<Text fontSize={"small"} fontWeight={"bold"}>$ PIMP Balance:</Text>
+<Text fontSize={"small"} fontWeight={"bold"}> PIMP Balance:</Text>
 {rewardBalance && (
   <p>{ethers.utils.formatUnits(rewardBalance, 18)}</p>
 )}
@@ -109,7 +109,7 @@ if(ownedScarlets?.length === 0) {
 </SimpleGrid>
 
 <Card p={5} my={10}>
-  <Heading mb={"30px"}>Equiped Sextoys</Heading>
+  <Heading mb={"20px"}>Insert Sextoys and start Earning PIMP tokens</Heading>
   <SimpleGrid columns={3} spacing={10}>
     {equippedSextoys &&
     equippedSextoys[0].map((nft: BigNumber) =>(

@@ -18,6 +18,7 @@ export default function Navbar() {
                 alignItems={"center"}>
                     <Button><Link href={"/"} mx={2}>Play</Link></Button>
                     <Button><Link href={"/shop"} mx={2}>Shop</Link></Button>
+                    <Button><Link href={"/news"} mx={2}>News</Link></Button>
                 </Flex>
                 
             </Flex>

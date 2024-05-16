@@ -1,6 +1,6 @@
 import { NFTCollection, useContract, useNFTs } from "@thirdweb-dev/react";
 import { SEXTOYS_ADDRESS } from "../const/addresses";
-import {Text, Card, Box, Spinner, Button, Stack,Heading, Container, Flex, Link, SimpleGrid } from "@chakra-ui/react";
+import {Text, Spinner, Button,Heading, Container, Flex, Link, SimpleGrid } from "@chakra-ui/react";
 import NFT from "../Components/NFT";
 
 export default function Shop () {
@@ -17,7 +17,7 @@ href="/"
 
 </Flex> 
 <Heading mt={"40px"}>Sex toy Shop</Heading>
-<Text bg={"red.200"} textAlign={"center"} >Purchase sex toys with PIMP token and start wetting your pussy.</Text>
+<Text bg={"red.100"} textAlign={"center"} mt={"40px"} fontWeight={"bold"} >Purchase sex toys with PIMP token and start wetting your pussy.</Text>
 {!nfts ? (
 <Flex h={"50vh"} justifyContent={"center"} alignItems={"center"}>
 <Spinner />
