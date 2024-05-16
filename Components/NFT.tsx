@@ -26,7 +26,7 @@ width="100%"
 {!isLoading && data ?(
 <Text textAlign={"center"} my={5}>Cost: {ethers.utils.formatEther(data?.price)}{"" + data?.currencyMetadata.symbol}</Text>
 ):(
-<Text>Wetting...</Text>
+<Text>Wetting....</Text>
 )}
 <Web3Button
 contractAddress= {SEXTOYS_ADDRESS}
