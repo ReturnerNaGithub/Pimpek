@@ -1,4 +1,5 @@
 import Navbar from "../Components/NavBar";
+
 import type { AppProps } from "next/app";
 import { ChakraProvider } from '@chakra-ui/react';
 import { ThirdwebProvider} from "@thirdweb-dev/react";
@@ -13,6 +14,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <Navbar />
         <Component {...pageProps} />
       </ChakraProvider>
+      
     </ThirdwebProvider>
   );
 }
