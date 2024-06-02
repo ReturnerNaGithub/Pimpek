@@ -8,7 +8,7 @@ import { ClaimScarlet } from "../Components/ClaimScarlet";
 import { BigNumber, ethers } from "ethers";
 import { Inventory } from "../Components/Inventory";
 import { Equipped } from "../Components/Equipped";
-import { useState, useEffect } from 'react';
+
 
 
 const Home: NextPage = () => {

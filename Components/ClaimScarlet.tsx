@@ -9,24 +9,36 @@ const { data: metadata } = useContractMetadata(contract);
 
 return (
 
-    <Container maxW={"1200px"}>
-<Flex direction={"column"} alignItems={"center"} justifyContent={"center"} h= {"50vh"}>
+    <Container maxW={"full"}
+    maxH={"full"}
+    mt="12px"
+    bg={"pink.400"}
+    rounded={'12px'}
+    >
+<Flex  alignItems={"center"} justifyContent={"center"} h= {"50vh"} >
 <Heading>
-    Pick Scarlet to start Pimping
+    Pick: Scarlet to start Pimping...
 </Heading>
 <Box borderRadius={"8px"} overflow={"hidden"} my={10}>
   <MediaRenderer
     src={metadata?.image}
-    height="200px"
-    width="200px"
+    height="800px"
+    width="800px"
 />
 
 </Box>
+<Box
+bg="red"
+rounded={'full'}
+>
 
 <Web3Button
 contractAddress={SCARLET_ADDRESS}
 action={(contract) => contract.erc1155.claim(0, 1)}
->claim</Web3Button>
+>Claim</Web3Button>
+
+</Box>
+
 
 </Flex>
 

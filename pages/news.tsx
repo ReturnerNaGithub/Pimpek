@@ -129,7 +129,7 @@ export default function Novice () {
             <Box 
             width="100%"
             height="100%">
-      <Image src="https://cdn.prod.website-files.com/5f6b7190899f41fb70882d08/661d2acf9ee617ec9e0c0503_Block%20Magic%20Stacked%20Logo%20-%20Light%20No%20Tag.svg" 
+      <Image src="/cpimpa.png" 
       alt="Magic Block" 
       objectFit="cover" width="60%" 
       height="100%"
@@ -372,8 +372,8 @@ export default function Novice () {
           flex="1"
           marginRight="3"
           position="relative"
-          alignItems="center"><Image src="https://ipfs.io/ipfs/QmaQGZw89qPthfK5kv3RgYfJjNxsRrmnBUqYgLxfJMa74H/My%20stash%20%E2%80%93%20kopija.png" 
-      alt="Magic Block" 
+          alignItems="center"><Image src="/poli.png" 
+      alt="Polygon" 
       objectFit="cover" width="60%" 
       height="100%"
       bg="black" />
@@ -411,7 +411,7 @@ export default function Novice () {
           
           <Heading marginTop="1">
             <Link textDecoration="none" _hover={{ textDecoration: 'none' }}>
-              Your assets are your assets
+              Your assets are really your assets
             </Link>
           </Heading>
           <Heading fontSize="xl" marginTop="4">
@@ -424,7 +424,7 @@ export default function Novice () {
              Our first mision is to make player happy. 
              So we decided to use cheap and fast blockchain for playing the game.
             </Text>
-    <Link href={"/"}> 
+    <Link href={"https://polygon.technology/"}> 
                     <Button
                     bg={'pink.600'}
                     px={4}
